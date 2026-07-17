@@ -12,9 +12,10 @@
 | NIM | 2406017 |
 | Anggota 2 | Rahmat Apandi |
 | NIM | 2406006 |
-| Kelas | A Informatika |
+| Kelas | A |
+|Program Studi | Teknik Informatika |
 | Mata Kuliah | Kecerdasan Buatan |
-| Dosen Pengampu | Leni S. |
+| Dosen Pengampu | Leni Fitriani, S.T., M.Kom. |
 
 ---
 
