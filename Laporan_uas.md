@@ -18,15 +18,6 @@
 | Dosen Pengampu | Leni Fitriani, S.T., M.Kom. |
 
 ---
-
-## Abstrak
-
-Komentar pada video ulasan produk mengandung opini pengguna yang dapat dimanfaatkan untuk memahami penerimaan masyarakat terhadap suatu produk. Penelitian ini bertujuan menganalisis sentimen komentar YouTube pada video ulasan Samsung Galaxy A57 di kanal GadgetIn serta membandingkan kinerja algoritma Complement Naive Bayes dan Linear Support Vector Machine. Komentar diperoleh melalui YouTube Data API v3. Dari 2.981 komentar mentah yang telah divalidasi, sebanyak 2.962 komentar dapat digunakan setelah tahap preprocessing. Pelabelan awal dilakukan secara otomatis menggunakan Indonesian RoBERTa Sentiment Classifier sehingga diperoleh 1.376 komentar negatif, 844 komentar netral, dan 742 komentar positif. Fitur teks dibentuk menggunakan TF-IDF unigram dan bigram. Data dibagi menjadi 80% data training dan 20% data testing menggunakan stratified split, kemudian Random Oversampling diterapkan hanya pada data training. Hasil evaluasi menunjukkan bahwa Complement Naive Bayes memperoleh accuracy 0,6223 dan macro F1-score 0,6186, sedangkan Linear SVM memperoleh accuracy 0,6442 dan macro F1-score 0,6369. Dengan demikian, Linear SVM dipilih sebagai model terbaik. Meskipun demikian, hasil penelitian masih dibatasi oleh penggunaan pseudo-label otomatis yang belum divalidasi secara menyeluruh oleh anotator manusia.
-
-**Kata kunci:** analisis sentimen, YouTube, TF-IDF, Complement Naive Bayes, Linear SVM, IndoRoBERTa.
-
----
-
 # 1. Judul Proyek
 
 **Analisis Sentimen Komentar YouTube terhadap Samsung Galaxy A57 Menggunakan Complement Naive Bayes dan Linear Support Vector Machine**
